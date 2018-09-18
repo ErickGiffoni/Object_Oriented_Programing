@@ -1,8 +1,10 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class Carro{
-	// atributos 
+	// atributos
+private:
 	string chassis;
 	string cor;
 	int numero_de_portas;
@@ -10,13 +12,14 @@ class Carro{
 	string fabricante;
 	string estado;
 	float velocidade;
-	
+
 	//Métodos
+public:
 	Carro(); // método construtor -> mesmo nome da classe
 	~Carro(); // destrutor -> tem o til na frente
 	//Métodos acessores -> acesso aos atributos
 	string get_chassis(); //meio de acesso ao chasssi
-	void set_chassi(string chassis); //definir/atualizar o numero do chassi
+	void set_chassis(string chassis); //definir/atualizar o numero do chassi
 	string get_cor();
 	void set_cor(string cor);
 	int get_numero_de_portas();
@@ -28,8 +31,8 @@ class Carro{
 	string get_estado();
 	void set_estado(string estado);
 	float get_velocidade();
-	//void set_velocidade(float velocidade); 
-	//OUTROS Métodos 
+	float set_velocidade(float velocidade);
+	//OUTROS Métodos
 	void ligar();
 	void desligar();
 	void acelerar(float fator_de_aceleracao);
