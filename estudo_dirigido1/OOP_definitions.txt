@@ -1,0 +1,15 @@
+Define and examplify :
+
+1- Object :
+    An object is kind of a variable. Like a defined car, for example. Objects have
+  defined attributes, like collor, year made and number of doors, for a car.
+  Also, objects have lots of defined behaviors, like going forward or backwards.
+
+2- Class :
+    A class is the generic template of an object. It's not like a variable, but
+  a piece of code that has generic attributes and methods (behaviors). In our
+  example, this would be the generic template for a car, but not specifying it's
+  collor and how it behaves.
+
+3- Attributes :
+    Theese are all or some of the
