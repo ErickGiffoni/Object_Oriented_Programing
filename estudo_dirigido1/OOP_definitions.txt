@@ -12,4 +12,12 @@ Define and examplify :
   collor and how it behaves.
 
 3- Attributes :
-    Theese are all or some of the
+    These are all the characteristics of a car, like it's collor, model, year made,
+  number of doors, gps, type of wheel etc.
+
+4- Methods :
+    These are all the behaviors of a car, like moving forward or backwards, opening
+  or closing doors, turning on or off the lights and so on.
+
+5- Encapsulation (or Visibility):
+    
